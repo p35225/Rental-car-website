@@ -1,0 +1,58 @@
+
+html {height:100%;}
+html, body {width:100%; padding:0; margin:0;}
+body { 	 
+	font: 11px/22px Arial, Helvetica, sans-serif;
+	color:#000;
+	min-width:100%;
+	background:  #ffffff;
+	height:100%;
+}
+
+#showcase{
+	min-height:400px;
+	background:url('images/s4-bgtool.jpg') no-repeat 0-400px; 
+
+}
+/*body{
+	font-family: 15px/1.5 Arial,Helvetica,sans-serif;
+	background-color:#f4f4f4; 
+}
+*/
+
+	.servicetext{font-size: 50px; margin-top: 10px; color:#3f3c3c;
+
+
+}
+	#boxes{
+		margin-top: 20px;
+
+	}
+
+    #boxes .box{
+    	float:left;
+    	text-align: center;
+    	width:30%;
+    	padding: 10px;
+    }
+
+	#boxes .box img{
+		width:90px;
+
+	}
+
+	#newsletter h1{
+		float: left;
+
+	}
+
+	#newsletter form{
+		float: center;
+
+	}
+
+
+
+
+
+

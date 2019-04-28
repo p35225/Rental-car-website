@@ -1,0 +1,146 @@
+/* Global properties ======================================================== */
+html {height:100%;}
+html, body {width:100%; padding:0; margin:0;}
+body { 	 
+	font: 11px/22px Arial, Helvetica, sans-serif;
+	color:#000;
+	min-width:100%;
+	background:  #ffffff;
+	height:100%;
+}
+.rentcar{font-size: 50px;
+          color:#46464f; margin-bottom: 25px;font-weight: 650}
+.main {width:100%; margin-bottom: 25px; }
+/***********************************************************************/
+a {text-decoration:none; cursor:pointer;  }
+a:hover {text-decoration:none;}
+
+
+
+.button-2 {background:#fff; display:inline-block; font-size:20px; line-height:25px; color:#353535; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif; padding:9px 30px 10px 30px;}
+.button-2:hover {background:#000; color:#fff;}
+
+.link {color:#0fc6ee; text-transform:uppercase; }
+.link:hover {text-decoration:underline; }
+
+
+.reviewtext {margin-bottom: 50px;  font-size:35px; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif; color:#14436B;}
+.text-1 {font-size:25px; line-height:42px; color:#353535; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif;}
+.text-1>strong { display:block; font-size:25px; line-height:30px; color:#9f9fa6; font-weight:bold; margin-top:2px;}
+.text-2 {font-size:14px; line-height:22px; color:#515A5A; font-weight:bold; text-transform:uppercase;}
+.text-3 {font-size:14px; line-height:22px; color:#e2e2e4; font-weight:bold; text-transform:uppercase;}
+
+h2 { font-size:35px; line-height:42px; color:#353535; font-weight:bold; font-family: 'Open Sans Condensed', sans-serif;}
+
+ul {margin:0; padding:0;list-style-image:none;}
+
+
+/******************************************************************/
+.clear {clear:both; line-height:0; font-size:0; width:100%;}
+.wrapper {width:100%; overflow:hidden; position:relative}
+.wrap {overflow:hidden; position:relative margin-bottom:25px;}
+
+
+
+
+
+
+/*********************************header*************************************/
+header{width:100%; background:#ffffff;  margin: 0 auto;}
+
+h1 {display:inline-block; z-index:111; float:left; padding:40px 0 0 21px; color: #fff;}
+header p {float:right; width:350px; overflow:hidden; font:18px/18px Tahoma, Geneva, sans-serif; color:#3f3c3c; padding:27px 0 27px 0; }
+header p>span {display:block; color:#3f3c3c; font-size:18px; line-height:30px; margin-top:6px;letter-spacing:-1px; }
+input {font-size:18px;}
+nav {display:block; z-index:1111; position:relative; background:#101e34; 0 bottom repeat-x; }
+
+ul.menu {display:block; width:100%; }
+  
+ul.menu li {float:left; display:block; height:60px; text-align:center; background:url(../images/li.jpg) right 0 no-repeat; }
+
+ul.menu li a { font:16px/20px Tahoma, Geneva, sans-serif; color:#f2f1ef; display:block; padding:19px 22px 21px 22px; overflow:hidden; }
+ul.menu li:hover, ul.menu li.current {}
+ul.menu li:hover a.home, ul.menu li.current a.home {background-position:right 0;}
+ul.menu li:hover a.home img, ul.menu li.current a.home img {display:none;}
+ul.menu li a:hover , ul.menu li.current a {color:#e25f96; text-shadow:#cc0c0c 0 0 5px;}
+
+.custom-button{float: right; margin-right: 35px; margin-top: 2.5%; font-size: 20px; display: inline-block;
+      padding: 5px 10px;
+      ;}
+.custom-button:visited {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 2px solid #73AD21;
+      border-radius: 25px;
+
+}
+
+.row {
+    zoom: 1; 
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 50px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    
+}
+
+h2:after{
+    display: block;
+    height: 5px;
+    background-color: #e67e22;
+    content: " ";
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.long-copy{
+    font-size: 25px;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+section{
+    padding-bottom: 70px;
+}
+
+.head-text {
+  text-align: center !important; }
+
+.heading-secondary { 
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #4949ed, #14efa5);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+  .heading-secondary:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }

@@ -1,0 +1,165 @@
+body {
+    font: 11px/22px Arial, Helvetica, sans-serif;
+    color:#000;
+    min-width:100%;
+    background:  #ffffff;
+    height:100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding-left: 30px;
+    padding-top: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-color: white;
+    display: block;
+
+}
+
+.sidenav a:hover {
+    color: orange;
+}
+
+a:active {
+    color: white;
+}
+a:visited {
+    color:white;
+}
+
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+.Hfont{color:#808080;}
+hr {
+    border: 2px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.container{
+font: 22px Arial, Helvetica, sans-serif;
+color: #808080;
+
+
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px;
+    margin-left: 20px; 
+    margin-top: 5px;
+    margin-bottom: 20px; 
+    font-size: 20px;
+    
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.userbox{
+    
+    padding-right: 100px;
+}
+
+b{outline-width: 100px;}
+.userbox{ word-wrap: break-word;
+   width: 800px;}
+
+
+#rcorners {
+    border-radius: 25px;
+    border: 5px solid #FFAF0A;
+    padding: 20px;
+    width: 70%;
+    
+}   
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    opacity: 0.9;
+    font-size:20px; 
+}
+button:hover {
+    opacity:1;
+}
+
+label{
+width: 100px;
+
+}
+
+.box{
+    width: 200px;
+}
+
+.datebox{
+width: 30%;
+padding: 10px;
+font-size: 20px;
+margin-left: 20px;
+
+}
+.radiofont{
+
+    font-size:  12px;
+}
+
+.orangefont{
+    padding-left: 30px;
+    padding-top: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: orange;
+    display: block;
+}
+
+.sidenav b{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 25px;
+    color: orange;
+    display: block;
+
+}
+
+
+
+.warn{
+
+    color : red;
+}
+
+.link{
+  
+  color: blue;
+
+}

@@ -1,0 +1,269 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  color: #0b0a09;
+  font-weight: 300;
+  line-height: 1.6; 
+  font-family: 'Nunito','Lato','Arial','Helvetica Neue',sans-serif;
+  font-size: 21px;
+  font-weight: 330;
+  text-rendering: optimizeLegibility;
+
+}
+
+/*********************************header*************************************/
+.rentcar{font-size: 50px;
+          color:#46464f;font-weight: 650;padding-left: 20px;margin-bottom: 20px;margin-top: 20px;}
+.main {width:100%; margin:0 auto;}
+ul {margin:0; padding:0;list-style-image:none;}
+ul.list-1 li {padding:0px 0 8px 15px; font-size:11px; line-height:22px; color:#fff; text-transform:uppercase; background:url(../images/marker-1.gif) 0 8px no-repeat;}
+ul.list-1 li a {color:#fff;text-decoration:underline;}
+ul.list-1 li a:hover {text-decoration:none;}
+ul.list-2 li {padding:0px 0 8px 15px; font-size:11px; line-height:22px; color:#9f9fa6; text-transform:uppercase; background:url(../images/marker-1.gif) 0 8px no-repeat;}
+ul.list-2 li a {color:#F94877;text-decoration:underline;}
+ul.list-2 li a:hover {text-decoration:none;}
+.clear {clear:both; line-height:0; font-size:0; width:100%;}
+header{width:100%; background:#ffffff;  margin: 0px auto;}
+h1 {display:inline-block; z-index:111; color: #fff;}
+header p {width:330px; overflow:hidden; font:18px/18px Tahoma, Geneva, sans-serif; color:#3f3c3c;margin-left: 79%;}
+header p>span {display:block; color:#3f3c3c; font-size:18px; line-height:30px; margin-top:6px;letter-spacing:-1px; }
+input {font-size:18px;}
+nav {display: block; z-index:1111; position:relative;background:#101e34; 0 bottom repeat-x; }
+ul.menu li {float:left; display:inline-block; height:60px; text-align:center;right 0 no-repeat;}
+ul.menu li a { font:16px/20px Tahoma, Geneva, sans-serif; color:#f2f1ef; display:inline-block; padding:19px 22px 21px 22px; overflow: hidden; }
+ul.menu li:hover, ul.menu li.current {}
+ul.menu li:hover a.home, ul.menu li.current a.home {background-position:right 0;}
+ul.menu li:hover a.home img, ul.menu li.current a.home img {display:none;}
+ul.menu li a:hover , ul.menu li.current a {color:#e25f96; text-shadow:#cc0c0c 0 0 5px;}
+
+.custom-button{float: right; margin-right: 35px; margin-top: 2.5%; font-size: 24px; display: inline-block;
+      padding: 5px 10px; 
+      text-decoration: none;
+      color: #7b7b7b
+      ;}
+.custom-button:visited {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 2px solid #73AD21;
+      border-radius: 25px;
+
+}
+
+/*****************************************************************************/
+
+section{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.71),rgba(83, 83, 83, 0.81)),url(../images/asphalt-auto-automobile-226460.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4rem 0;
+}
+
+.box1{
+    width:75%;
+    margin:0 auto;
+    padding: 4rem;
+    background-color: #edfbff;
+    -webkit-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);   
+    box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    transform: skewX(-7deg);
+}
+
+.box2{
+    width:75%;
+    margin:0 auto;
+    padding: 4rem;
+    background-color: #edfbff;
+    -webkit-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    transform: skewX(7deg);
+}
+
+.box3{
+    width:75%;
+    margin:0 auto;
+    padding: 4rem;
+    background-color: #edfbff;
+    -webkit-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    transform: skewX(-7deg);
+}
+
+.box4{
+    width:75%;
+    margin:0 auto;
+    padding: 4rem;
+    background-color: #edfbff;
+    -webkit-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 13px -1px rgba(0,0,0,0.5);
+    transform: skewX(7deg);
+}
+
+.pic1 img{
+    width: 30%;
+    height: 30%;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    -moz-shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path:circle(50% at 50% 50%);
+    -webkit-clip-path:circle(50% at 50% 50%);
+    -moz-clip-path:circle(50% at 50% 50%);
+    transform: translateX(-5rem);
+}
+
+.pic2 img{
+    width: 25%;
+    height: 30%;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    -moz-shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path:circle(50% at 50% 50%);
+    -webkit-clip-path:circle(50% at 50% 50%);
+    -moz-clip-path:circle(50% at 50% 50%);
+    transform: translateX(-5rem);
+}
+
+.pic3 img{
+    width: 30%;
+    height: 30%;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    -moz-shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path:circle(50% at 50% 50%);
+    -webkit-clip-path:circle(50% at 50% 50%);
+    -moz-clip-path:circle(50% at 50% 50%);
+    transform: translateX(-5rem);
+}
+
+.pic4 img{
+    width: 25%;
+    height: 30%;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    -moz-shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path:circle(50% at 50% 50%);
+    -webkit-clip-path:circle(50% at 50% 50%);
+    -moz-clip-path:circle(50% at 50% 50%);
+    transform: translateX(-5rem);
+}
+
+.row{
+    margin: 2.5rem auto ;
+    
+}
+
+.lo1text{
+    transform: skewX(7deg);
+    margin-top: 9px;
+    margin-bottom: 13px;
+}
+
+.lo2text{
+    transform: skewX(-7deg);
+    margin-top: 9px;
+    margin-bottom: 13px;
+}
+
+.lo3text{
+    transform: skewX(7deg);
+    margin-top: 9px;
+    margin-bottom: 13px;
+}
+
+.lo4text{
+    transform: skewX(-7deg);
+    margin-top: 9px;
+    margin-bottom: 13px;
+}
+
+.headtextlo1{
+    transform: skewX(7deg);
+    font-size: 22.4px;
+}
+
+.headtextlo2{
+    transform: skewX(-7deg);
+    font-size: 22.4px;
+}
+
+.headtextlo3{
+    transform: skewX(7deg);
+    font-size: 22.4px;
+}
+
+.headtextlo4{
+    transform: skewX(-7deg);
+    font-size: 22.4px;
+}
+.head{
+    
+    margin-left: 40%;
+   
+}
+.btn-head{
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 100px;
+  border: 6px solid #f98900;
+  border-width: 6px 6px 6px 6px;
+  padding: 5px 20px 5px 20px;
+  color: #ff6b00;
+  font-size: 50px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+  }
+
+.btn {
+	-moz-box-shadow: 3px 5px 0px -2px #547478;
+	-webkit-box-shadow: 3px 5px 0px -2px #547478;
+	box-shadow: 3px 5px 0px -2px #547478;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e3edff), color-stop(1, #abced9));
+	background:-moz-linear-gradient(top, #e3edff 5%, #abced9 100%);
+	background:-webkit-linear-gradient(top, #e3edff 5%, #abced9 100%);
+	background:linear-gradient(to bottom, #e3edff 5%, #abced9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3edff', endColorstr='#abced9',GradientType=0);
+	background-color:#e3edff;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #88a8a4;
+	display:inline-block;
+	cursor:pointer;
+	color:#5ab9db;
+	font-family:Lato;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 25px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #404240;
+}
+
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #abced9), color-stop(1, #e3edff));
+	background:-moz-linear-gradient(top, #abced9 5%, #e3edff 100%);
+	background:-webkit-linear-gradient(top, #abced9 5%, #e3edff 100%);
+	background:linear-gradient(to bottom, #abced9 5%, #e3edff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#abced9', endColorstr='#e3edff',GradientType=0);
+	background-color:#abced9;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
